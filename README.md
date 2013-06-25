@@ -16,7 +16,7 @@ npm install
   wouldn't you? It's what statsd does, after all. And you're happy with that.
 
   This little script listens for UDP datagrams on the port of your choice, and forwards
-  any and messages it receives to the configured channel on the configured IRC server.
+  any and all messages it receives to the configured channel on the configured IRC server.
   Your happy server process can fire off messages to the listening port, and have moderate
   confidence those messages will make it into the channel. There's no blocking, there's 
   no connection to deal with, your server stays happy and healthy if your IRC server is
