@@ -1,0 +1,28 @@
+{
+  "name": "little-birdy",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Joshua Thayer <joshuathayer@riseup.net>",
+  "description": "an irc hack",
+  "scripts": {
+    "start": "node ./little-birdy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshuathayer/little-birdy.git"
+  },
+  "keywords": [
+    "irc",
+    "bot",
+    "udp"
+  ],
+  "dependencies" : {
+    "node-irc"     :  "*",
+    "connect"      :  "*",
+    "flask-router" :  "*"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
